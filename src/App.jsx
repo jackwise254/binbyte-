@@ -5,7 +5,7 @@ import About from "./components/About";
 import Services from "./components/Services";
 import ServiceCards from "./components/ServiceCards";
 import BookAnAppointment from "./components/BookAnAppointment";
-// import VideoSection from "./components/VideoSection";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -24,7 +24,7 @@ function App() {
       </div>
 
       <BookAnAppointment />
-      {/* <VideoSection /> */}
+      <Footer />
     </>
   );
 }
